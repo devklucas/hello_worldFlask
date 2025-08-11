@@ -2,7 +2,7 @@ from flask import Flask, redirect
 
 app = Flask(__name__)
 
-@app.route("/CV12")
+@app.route("/")
 def hello_world():
     return "<h1>Olá mundo!<h1>"
 
