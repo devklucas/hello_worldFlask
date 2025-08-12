@@ -7,4 +7,4 @@ def hello_world():
     return "<h1>Olá mundo!<h1>"
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5173)
+    app.run(debug=True)
